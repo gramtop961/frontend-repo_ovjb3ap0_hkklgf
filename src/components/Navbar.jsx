@@ -14,6 +14,7 @@ export default function Navbar() {
           </a>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-gray-700">
+            <a href="#dashboard" className="hover:text-gray-900">Dashboard</a>
             <a href="#features" className="hover:text-gray-900">Functies</a>
             <a href="#pricing" className="hover:text-gray-900">Prijzen</a>
             <a href="#faq" className="hover:text-gray-900">FAQ</a>
@@ -32,6 +33,7 @@ export default function Navbar() {
         {open && (
           <div className="md:hidden pb-4">
             <nav className="grid gap-2 text-sm text-gray-700">
+              <a href="#dashboard" className="py-2">Dashboard</a>
               <a href="#features" className="py-2">Functies</a>
               <a href="#pricing" className="py-2">Prijzen</a>
               <a href="#faq" className="py-2">FAQ</a>

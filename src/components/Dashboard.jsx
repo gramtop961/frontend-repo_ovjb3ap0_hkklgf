@@ -107,7 +107,7 @@ export default function Dashboard() {
   }
 
   return (
-    <section className="py-14 border-t bg-gray-50" id="dashboard">
+    <section className="py-14 border-t bg-gray-50 scroll-mt-24" id="dashboard">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between mb-6">
           <div>

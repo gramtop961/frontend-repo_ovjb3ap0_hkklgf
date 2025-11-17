@@ -14,6 +14,7 @@ export default function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a href="#cta" className="px-6 py-3 rounded-md text-white bg-emerald-600 hover:bg-emerald-700 font-medium shadow">Start gratis proefperiode</a>
               <a href="#features" className="px-6 py-3 rounded-md bg-white text-gray-900 border border-gray-200 hover:border-gray-300 font-medium">Bekijk functies</a>
+              <a href="#dashboard" className="px-6 py-3 rounded-md bg-white text-gray-900 border border-gray-200 hover:border-gray-300 font-medium">Ga naar dashboard</a>
             </div>
             <div className="mt-6 text-sm text-gray-500">Geen creditcard nodig • Proefperiode van 30 dagen</div>
           </div>
