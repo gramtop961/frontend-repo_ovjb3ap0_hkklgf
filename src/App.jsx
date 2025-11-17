@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Dashboard from './components/Dashboard'
 import Features from './components/Features'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Dashboard />
         <Features />
         <Pricing />
         <CTA />
