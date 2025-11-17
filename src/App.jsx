@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard'
 import Features from './components/Features'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
+import Auth from './components/Auth'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Dashboard />
         <Features />
         <Pricing />
+        <Auth />
         <CTA />
       </main>
       <footer className="border-t py-12 text-sm text-gray-600">

@@ -21,7 +21,7 @@ export default function Navbar() {
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
-            <a href="#" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900">Inloggen</a>
+            <a href="#auth" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900">Inloggen</a>
             <a href="#cta" className="px-4 py-2 rounded-md text-sm font-medium text-white bg-emerald-600 hover:bg-emerald-700 shadow-sm">Gratis proberen</a>
           </div>
 
@@ -37,7 +37,7 @@ export default function Navbar() {
               <a href="#features" className="py-2">Functies</a>
               <a href="#pricing" className="py-2">Prijzen</a>
               <a href="#faq" className="py-2">FAQ</a>
-              <a href="#" className="py-2">Inloggen</a>
+              <a href="#auth" className="py-2">Inloggen</a>
               <a href="#cta" className="py-2 text-white bg-emerald-600 rounded-md text-center">Gratis proberen</a>
             </nav>
           </div>
